@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: break-all;
+  hyphens: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'sidebar content'
+    'footer footer';
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+header {
+  grid-area: header;
+}
+
+article {
+  grid-area: content;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}

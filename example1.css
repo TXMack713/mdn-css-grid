@@ -39,7 +39,7 @@ footer {
 
 aside {
   border-right: 1px solid #999;
-  padding-right: 0.5rem;
+  padding-right: 0.6rem;
   grid-column: 1;
   grid-row: 2;
 }
