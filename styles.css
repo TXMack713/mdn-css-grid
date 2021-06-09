@@ -21,10 +21,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  color: whitesmoke;
 }
 
 header {
   text-align: center;
+  color: black;
 }
 
 .container {
