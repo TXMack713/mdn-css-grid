@@ -186,7 +186,7 @@ h2 {
   grid-template-rows: repeat(2, 1fr); */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   word-break: keep-all;
   hyphens: none;
 }
