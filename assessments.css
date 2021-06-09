@@ -185,7 +185,7 @@ h2 {
   grid-auto-columns: repeat(auto-fill, 1fr);
   grid-template-rows: repeat(2, 1fr); */
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   word-break: keep-all;
   hyphens: none;
